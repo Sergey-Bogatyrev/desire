@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap&_v=20220621114352" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons8-furniture-16.png" />
+  <link rel="stylesheet" href="assets/css/style.min.css?_v=20220621114352" />
+  <title>Contact</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header-container">
+    <a class="header-logo" href="index.html">
+      <p>FABER-ARTS</p>
+    </a>
+    <div class="header-menu">
+      <nav class="header-menue-nav">
+        <a href="about.html" class="header-menue-nav-item"><p>About</p></a>
+        <a href="gallery.html" class="header-menue-nav-item"><p>Gallery</p></a>
+        <a href="blog.html" class="header-menue-nav-item"><p>Blog</p></a>
+        <a href="contact.html" class="header-menue-nav-item"><p>Contact</p></a>
+      </nav>
+    </div>
+    <div class="header-account">
+      <a href="#" class="header-account-item">
+        <picture class="header-account-icon">
+          <svg>
+            <use xlink:href="assets/sprite/sprite.svg#account"></use>
+          </svg>
+        </picture>
+        <p>Account</p>
+      </a>
+    </div>
+    <div class="burger" onclick="changeBurger()">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <script>
+      function changeBurger() {
+        let bur = document.querySelector(".burger");
+        bur.classList.toggle("burgerChange");
+        let nm = document.querySelector(".nav-mob");
+        nm.classList.toggle("active");
+        let bd = document.querySelector("body");
+        bd.classList.toggle("active");
+      }
+    </script>
+  </div>
+</header>
+ <div class="nav-mob">
+  <nav class="nav-mob-items">
+    <a class="nav-mob-items__item" href="about.html"><p>About</p></a>
+    <a class="nav-mob-items__item" href="gallery.html"><p>Gallery</p></a>
+    <a class="nav-mob-items__item" href="blog.html"><p>Blog</p></a>
+    <a class="nav-mob-items__item" href="contact.html"><p>Contact</p></a>
+  </nav>
+</div>
+ <div class="breadcrumbs">
+  <div class="breadcrumbs__container">
+    <div class="breadcrumbs__items">
+      <a class="breadcrumbs__item-1" href="index.html">Home/</a>
+      <page class="breadcrumbs__item-2">Contact</page>
+    </div>
+  </div>
+</div>
+
+      <main class="main">
+        <div class="contact-map">
+          <div class="contact-map__container">
+            <div class="contact-map__item">
+              <iframe
+                class="contact-map__item-iframe"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1563.8354995253492!2d-0.15979998728442782!3d51.52359452594844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b898fa1b8c1%3A0x3d67df74a0e79f00!2sSherlock%20Holmes&#39;%20place!5e0!3m2!1sen!2sru!4v1649672148367!5m2!1sen!2sru"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <section class="contact-form">
+          <div class="contact-form__container">
+            <h2 class="contact-form__title">Contact Us</h2>
+            <div class="contact-form__box">
+              <div class="contact-form__social">
+                <a class="contact-form__social-link" href="#">
+                  <svg class="contact-form__social-img">
+                    <use xlink:href="assets/sprite/sprite.svg#vk"></use>
+                  </svg>
+                </a>
+                <a class="contact-form__social-link" href="#">
+                  <svg class="contact-form__social-img">
+                    <use xlink:href="assets/sprite/sprite.svg#telegram"></use>
+                  </svg>
+                </a>
+                <a class="contact-form__social-link" href="#">
+                  <svg class="contact-form__social-img">
+                    <use xlink:href="assets/sprite/sprite.svg#pinterest"></use>
+                  </svg>
+                </a>
+                <a class="contact-form__social-link" href="#">
+                  <svg class="contact-form__social-img">
+                    <use xlink:href="assets/sprite/sprite.svg#whatsapp"></use>
+                  </svg>
+                </a>
+                <a class="contact-form__social-link" href="#">
+                  <svg class="contact-form__social-img">
+                    <use xlink:href="assets/sprite/sprite.svg#youtube"></use>
+                  </svg>
+                </a>
+              </div>
+              <p class="contact-form__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, itaque iusto necessitatibus sit minima, eaque aut amet accusamus, perspiciatis odio quaerat eligendi autem qui. Culpa
+                ipsum voluptates at laborum eius omnis dignissimos repellat aspernatur, voluptatem suscipit.
+              </p>
+              <div class="contact-form__address">
+                <p class="contact-form__address-item">+0 (000) 000-00-00</p>
+                <p class="contact-form__address-item">221B Baker St</p>
+                <p class="contact-form__address-item">London NW1 6XE, UK</p>
+              </div>
+              <a class="contact-form__mail-link" href="mailto:someone@example.com">
+                <div class="contact-form__mail-img">
+                  <svg class="contact-form__mail-img-item">
+                    <use xlink:href="assets/sprite/sprite.svg#envelope"></use>
+                  </svg>
+                </div>
+                <p class="contact-form__mail-text">someone@example.com</p>
+              </a>
+              <form class="contact-form__inputs">
+                <input class="contact-form__inputs-name" type="text" name="name" placeholder="Your name" />
+                <input class="contact-form__inputs-email" type="email" name="email" placeholder="Your e-mail" />
+                <textarea class="contact-form__inputs-text" name="message" placeholder="Your message"></textarea>
+                <button class="contact-form__inputs-btn" type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <div class="contact-gallery">
+          <div class="contact-gallery__container">
+            <div class="contact-gallery__slider">
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture1.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture1.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture2.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture2.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture3.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture3.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture4.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture4.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture5.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture5.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture1.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture1.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture2.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture2.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture3.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture3.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture4.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture4.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture5.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture5.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture1.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture1.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture2.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture2.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture3.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture3.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture4.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture4.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture5.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture5.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture1.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture1.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture2.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture2.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture3.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture3.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture4.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture4.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture5.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture5.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture1.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture1.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture2.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture2.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture3.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture3.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture4.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture4.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture5.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture5.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture1.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture1.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture2.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture2.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture3.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture3.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture4.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture4.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+              <div class="contact-gallery__slider-item">
+                <div class="contact-gallery__slider-img">
+                  <picture><source srcset="assets/img/s2furniture5.webp" type="image/webp"><img class="contact-gallery__slider-img-item" src="assets/img/s2furniture5.jpg" alt="furniture" /></picture>
+                </div>
+                <div class="contact-gallery__info">
+                  <h4 class="contact-gallery__info-title">Terbordon kiel cxu.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+  <div class="footer__content">
+    <div class="footer__content-container">
+      <!-- INFO -->
+      <div class="footer__info">
+        <h6 class="footer__info-title">Contact Us</h6>
+        <p class="footer__info-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sed
+          aperiam ipsam debitis, quisquam, maiores culpa.
+        </p>
+        <div class="footer__info-email">
+          <svg class="footer__info-email-img">
+            <use xlink:href="assets/sprite/sprite.svg#envelope"></use>
+          </svg>
+          <a
+            class="footer__info-email-text"
+            href="mailto:faberarts12345@email.za"
+          >
+            faberarts12345@email.za
+          </a>
+        </div>
+        <form class="footer__form">
+          <input
+            class="footer__form-input"
+            type="email"
+            placeholder="Subscribe by email"
+          />
+          <button class="footer__form-button" type="submit">Send</button>
+        </form>
+      </div>
+      <!-- SOCIAL -->
+      <ul class="footer__social">
+        <li class="footer__social-item">
+          <svg class="footer__social-img">
+            <use xlink:href="assets/sprite/sprite.svg#vk"></use>
+          </svg>
+          <a class="footer__social-link" href="#">VK</a>
+        </li>
+        <li class="footer__social-item">
+          <svg class="footer__social-img">
+            <use xlink:href="assets/sprite/sprite.svg#telegram"></use>
+          </svg>
+          <a class="footer__social-link" href="#">Telegram</a>
+        </li>
+        <li class="footer__social-item">
+          <svg class="footer__social-img">
+            <use xlink:href="assets/sprite/sprite.svg#pinterest"></use>
+          </svg>
+          <a class="footer__social-link" href="#">Pinterest</a>
+        </li>
+        <li class="footer__social-item">
+          <svg class="footer__social-img">
+            <use xlink:href="assets/sprite/sprite.svg#whatsapp"></use>
+          </svg>
+          <a class="footer__social-link" href="#">WhatsApp</a>
+        </li>
+        <li class="footer__social-item">
+          <svg class="footer__social-img">
+            <use xlink:href="assets/sprite/sprite.svg#youtube"></use>
+          </svg>
+          <a class="footer__social-link" href="#">Youtube</a>
+        </li>
+      </ul>
+      <!-- MENU -->
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Delivery</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">FAQ</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Help</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">More About Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="footer__copyright">
+    <div class="footer__copyright-container">
+      00 Bertie Ave, Goodwood, Cape Town, 0000, South Africa
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220621114352"></script>
+    <script src="assets/js/app.min.js?_v=20220621114352"></script>
+  </body>
+</html>

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap&_v=20220621114352" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons8-furniture-16.png" />
+  <link rel="stylesheet" href="assets/css/style.min.css?_v=20220621114352" />
+  <title>FABER-ARTS</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header-container">
+    <a class="header-logo" href="index.html">
+      <p>FABER-ARTS</p>
+    </a>
+    <div class="header-menu">
+      <nav class="header-menue-nav">
+        <a href="about.html" class="header-menue-nav-item"><p>About</p></a>
+        <a href="gallery.html" class="header-menue-nav-item"><p>Gallery</p></a>
+        <a href="blog.html" class="header-menue-nav-item"><p>Blog</p></a>
+        <a href="contact.html" class="header-menue-nav-item"><p>Contact</p></a>
+      </nav>
+    </div>
+    <div class="header-account">
+      <a href="#" class="header-account-item">
+        <picture class="header-account-icon">
+          <svg>
+            <use xlink:href="assets/sprite/sprite.svg#account"></use>
+          </svg>
+        </picture>
+        <p>Account</p>
+      </a>
+    </div>
+    <div class="burger" onclick="changeBurger()">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <script>
+      function changeBurger() {
+        let bur = document.querySelector(".burger");
+        bur.classList.toggle("burgerChange");
+        let nm = document.querySelector(".nav-mob");
+        nm.classList.toggle("active");
+        let bd = document.querySelector("body");
+        bd.classList.toggle("active");
+      }
+    </script>
+  </div>
+</header>
+ 
+      <div class="nav-mob">
+  <nav class="nav-mob-items">
+    <a class="nav-mob-items__item" href="about.html"><p>About</p></a>
+    <a class="nav-mob-items__item" href="gallery.html"><p>Gallery</p></a>
+    <a class="nav-mob-items__item" href="blog.html"><p>Blog</p></a>
+    <a class="nav-mob-items__item" href="contact.html"><p>Contact</p></a>
+  </nav>
+</div>
+
+      <main class="main">
+        <section class="collection">
+  <div class="collection__container">
+    <div class="collection__bg">
+      <picture><source srcset="assets/img/s1bgr.webp" type="image/webp"><img src="assets/img/s1bgr.jpg" alt="background" /></picture>
+    </div>
+    <div class="collection__slider">
+      <div class="collection__slider-item">
+        <picture><source srcset="assets/img/s1chair1.webp" type="image/webp"><img class="collection__slider-img" src="assets/img/s1chair1.jpg" /></picture>
+        <div class="collection__slider-slogan">
+          <h1 class="collection__slider-title">Furniture collection</h1>
+          <p class="collection__slider-text">Parton alta alteren tial bona sciigxis morgauxtage la kapon. Fisxkapti li ne intencas direktis vi sed, tial da ni kvinanokte.</p>
+        </div>
+      </div>
+      <div class="collection__slider-item">
+        <picture><source srcset="assets/img/s1chair2.webp" type="image/webp"><img class="collection__slider-img" src="assets/img/s1chair2.jpg" /></picture>
+        <div class="collection__slider-slogan">
+          <h1 class="collection__slider-title">Furniture collection</h1>
+          <p class="collection__slider-text">Mint így hallja meg alázat nincsen élők. Motyogjatok mint szégyellem elvonta él rólam ríjjátok fáj is. Belől s egymást párra.</p>
+        </div>
+      </div>
+      <div class="collection__slider-item">
+        <picture><source srcset="assets/img/s1chair3.webp" type="image/webp"><img class="collection__slider-img" src="assets/img/s1chair3.jpg" /></picture>
+        <div class="collection__slider-slogan">
+          <h1 class="collection__slider-title">Furniture collection</h1>
+          <p class="collection__slider-text">Consetetur dolore est tempor accusam takimata et dolor, et lorem dolores dolores et et sea. No at amet clita diam,.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+        <section class="new">
+  <div class="new__container">
+    <div class="new__info">
+      <h3 class="new__info-title">Furniture new collection</h3>
+      <p class="new__info-text">Lorem sit sadipscing no aliquyam ut et sed eos dolores kasd, et gubergren duo erat takimata, clita amet dolores sea.</p>
+    </div>
+    <div class="new__gallery">
+      <div class="new__gallery-item">
+        <div class="new__gallery-box">
+          <picture><source srcset="assets/img/s2furniture1.webp" type="image/webp"><img class="new__gallery-img" src="assets/img/s2furniture1.jpg" alt="furniture" /></picture>
+        </div>
+        <div class="new__gallery-info">
+          <h4 class="new__gallery-title">Terbordon kiel cxu.</h4>
+          <p class="new__gallery-text">Living room furntiture | Chair</p>
+        </div>
+      </div>
+      <div class="new__gallery-item">
+        <div class="new__gallery-box">
+          <picture><source srcset="assets/img/s2furniture2.webp" type="image/webp"><img class="new__gallery-img" src="assets/img/s2furniture2.jpg" alt="furniture" /></picture>
+        </div>
+        <div class="new__gallery-info">
+          <h4 class="new__gallery-title">Terbordon kiel cxu.</h4>
+          <p class="new__gallery-text">Living room furntiture | Chair</p>
+        </div>
+      </div>
+      <div class="new__gallery-item">
+        <div class="new__gallery-box">
+          <picture><source srcset="assets/img/s2furniture3.webp" type="image/webp"><img class="new__gallery-img" src="assets/img/s2furniture3.jpg" alt="furniture" /></picture>
+        </div>
+        <div class="new__gallery-info">
+          <h4 class="new__gallery-title">Terbordon kiel cxu.</h4>
+          <p class="new__gallery-text">Living room furntiture | Chair</p>
+        </div>
+      </div>
+      <div class="new__gallery-item">
+        <div class="new__gallery-box">
+          <picture><source srcset="assets/img/s2furniture4.webp" type="image/webp"><img class="new__gallery-img" src="assets/img/s2furniture4.jpg" alt="furniture" /></picture>
+        </div>
+        <div class="new__gallery-info">
+          <h4 class="new__gallery-title">Terbordon kiel cxu.</h4>
+          <p class="new__gallery-text">Living room furntiture | Chair</p>
+        </div>
+      </div>
+      <div class="new__gallery-item">
+        <div class="new__gallery-box">
+          <picture><source srcset="assets/img/s2furniture5.webp" type="image/webp"><img class="new__gallery-img" src="assets/img/s2furniture5.jpg" alt="furniture" /></picture>
+        </div>
+        <div class="new__gallery-info">
+          <h4 class="new__gallery-title">Terbordon kiel cxu.</h4>
+          <p class="new__gallery-text">Living room furntiture | Chair</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+        <section class="action">
+  <div class="action__container">
+    <div class="action__info">
+      <h2 class="action__title">Noch geneigt mögt.</h2>
+      <p class="action__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae quibusdam eius magni odio optio, officiis eum voluptatem sint.</p>
+    </div>
+    <div class="action__bg">
+      <picture><source srcset="assets/img/s3furniture.webp" type="image/webp"><img class="action__bg-img" src="assets/img/s3furniture.jpg" alt="img" /></picture>
+    </div>
+  </div>
+</section>
+ 
+        <section class="how">
+  <div class="how__container">
+    <h4 class="how__title">How it works</h4>
+    <div class="how__box">
+      <div class="how__consultation">
+        <div class="how__consultation-info">
+          <div class="how__consultation-box">
+            <div class="how__consultation-pic">
+              <svg>
+                <use xlink:href="assets/sprite/sprite.svg#s4_1"></use>
+              </svg>
+            </div>
+            <h1 class="how__consultation-title">Designer Consultation</h1>
+          </div>
+          <p class="how__consultation-text how__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quisquam autem facilis nihil, necessitatibus numquam harum reprehenderit deserunt voluptates non.
+          </p>
+        </div>
+        <div class="how__consultation-empty"></div>
+      </div>
+      <div class="how__measurements">
+        <div class="how__measurements-empty"></div>
+        <div class="how__measurements-info">
+          <div class="how__measurements-box">
+            <div class="how__measurements-pic">
+              <svg>
+                <use xlink:href="assets/sprite/sprite.svg#s4_2"></use>
+              </svg>
+            </div>
+            <h1 class="how__measurements-title">Measurements</h1>
+          </div>
+          <p class="how__measurements-text how__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quisquam autem facilis nihil, necessitatibus numquam harum reprehenderit deserunt voluptates non.
+          </p>
+        </div>
+      </div>
+      <div class="how__production">
+        <div class="how__production-info">
+          <div class="how__production-box">
+            <div class="how__production-pic">
+              <svg>
+                <use xlink:href="assets/sprite/sprite.svg#s4_3"></use>
+              </svg>
+            </div>
+            <h1 class="how__production-title">Production</h1>
+          </div>
+          <p class="how__production-text how__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quisquam autem facilis nihil, necessitatibus numquam harum reprehenderit deserunt voluptates non.
+          </p>
+        </div>
+        <div class="how__production-empty"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section class="rooms var2">
+  <div class="rooms__container">
+    <div class="rooms__buttons">
+      <button class="rooms__btn" data-filter=".bedroom">Bedroom furniture</button>
+      <button class="rooms__btn" data-filter=".living">Living room furniture</button>
+      <button class="rooms__btn" data-filter=".office">Office furniture</button>
+      <button class="rooms__btn" data-filter=".dining">Dining room futniture</button>
+      <button class="rooms__btn" data-filter=".chair">Chair</button>
+    </div>
+    <div class="rooms__gallery">
+      <div class="rooms__items mix bedroom">
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture1.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture1.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture2.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture2.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture3.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture3.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture4.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture4.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture5.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture5.jpg" alt="image" /></picture>
+        </a>
+      </div>
+      <div class="rooms__items mix living">
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture1.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture1.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture2.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture2.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture3.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture3.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture4.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture4.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture5.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture5.jpg" alt="image" /></picture>
+        </a>
+      </div>
+      <div class="rooms__items mix office">
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture1.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture1.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture2.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture2.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture3.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture3.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture4.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture4.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture5.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture5.jpg" alt="image" /></picture>
+        </a>
+      </div>
+      <div class="rooms__items mix dining">
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture1.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture1.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture2.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture2.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture3.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture3.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture4.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture4.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture5.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture5.jpg" alt="image" /></picture>
+        </a>
+      </div>
+      <div class="rooms__items mix chair">
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture1.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture1.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture2.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture2.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture3.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture3.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture4.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture4.jpg" alt="image" /></picture>
+        </a>
+        <a class="rooms__item" href="#">
+          <picture><source srcset="assets/img/s5furniture5.webp" type="image/webp"><img class="rooms__item-img" src="assets/img/s5furniture5.jpg" alt="image" /></picture>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+        <section class="ideas">
+  <div class="ideas__container">
+    <h3 class="ideas__title">More inspiration ideas in our blog</h3>
+    <div class="ideas__blog">
+      <article class="ideas__blog-1">
+        <a class="ideas__img" href="#">
+          <picture><source srcset="assets/img/s6furniture1.webp" type="image/webp"><img class="ideas__img-item" src="assets/img/s6furniture1.jpg" alt="image" /></picture>
+        </a>
+        <div class="ideas__bloger">
+          <div class="ideas__bloger-date">March 22, 2022</div>
+          <a class="ideas__bloger-name" href="#">by Mario Rossi</a>
+          <a class="ideas__bloger-room" href="#">Living Room Inrerior</a>
+        </div>
+        <a class="ideas__text" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, praesentium!</a>
+      </article>
+      <article class="ideas__blog-2">
+        <a class="ideas__img" href="#">
+          <picture><source srcset="assets/img/s6furniture2.webp" type="image/webp"><img class="ideas__img-item" src="assets/img/s6furniture2.jpg" alt="image" /></picture>
+        </a>
+        <div class="ideas__bloger">
+          <div class="ideas__bloger-date">September 22,2020</div>
+          <a class="ideas__bloger-name" href="#">by Jan Modaal</a>
+          <a class="ideas__bloger-room" href="#">Kitchen interior</a>
+        </div>
+        <a class="ideas__text" href="#">Symeonnok buabeleul kyniuhhad syrolmom hullothya kyniuhhad.</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+      </main>
+      <footer class="footer">
+  <div class="footer__content">
+    <div class="footer__content-container">
+      <!-- INFO -->
+      <div class="footer__info">
+        <h6 class="footer__info-title">Contact Us</h6>
+        <p class="footer__info-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sed
+          aperiam ipsam debitis, quisquam, maiores culpa.
+        </p>
+        <div class="footer__info-email">
+          <svg class="footer__info-email-img">
+            <use xlink:href="assets/sprite/sprite.svg#envelope"></use>
+          </svg>
+          <a
+            class="footer__info-email-text"
+            href="mailto:faberarts12345@email.za"
+          >
+            faberarts12345@email.za
+          </a>
+        </div>
+        <form class="footer__form">
+          <input
+            class="footer__form-input"
+            type="email"
+            placeholder="Subscribe by email"
+          />
+          <button class="footer__form-button" type="submit">Send</button>
+        </form>
+      </div>
+      <!-- SOCIAL -->
+      <ul class="footer__social">
+        <li class="footer__social-item">
+          <svg class="footer__social-img">
+            <use xlink:href="assets/sprite/sprite.svg#vk"></use>
+          </svg>
+          <a class="footer__social-link" href="#">VK</a>
+        </li>
+        <li class="footer__social-item">
+          <svg class="footer__social-img">
+            <use xlink:href="assets/sprite/sprite.svg#telegram"></use>
+          </svg>
+          <a class="footer__social-link" href="#">Telegram</a>
+        </li>
+        <li class="footer__social-item">
+          <svg class="footer__social-img">
+            <use xlink:href="assets/sprite/sprite.svg#pinterest"></use>
+          </svg>
+          <a class="footer__social-link" href="#">Pinterest</a>
+        </li>
+        <li class="footer__social-item">
+          <svg class="footer__social-img">
+            <use xlink:href="assets/sprite/sprite.svg#whatsapp"></use>
+          </svg>
+          <a class="footer__social-link" href="#">WhatsApp</a>
+        </li>
+        <li class="footer__social-item">
+          <svg class="footer__social-img">
+            <use xlink:href="assets/sprite/sprite.svg#youtube"></use>
+          </svg>
+          <a class="footer__social-link" href="#">Youtube</a>
+        </li>
+      </ul>
+      <!-- MENU -->
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Delivery</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">FAQ</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Help</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">More About Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="footer__copyright">
+    <div class="footer__copyright-container">
+      00 Bertie Ave, Goodwood, Cape Town, 0000, South Africa
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220621114352"></script>
+    <script src="assets/js/app.min.js?_v=20220621114352"></script>
+  </body>
+</html>
